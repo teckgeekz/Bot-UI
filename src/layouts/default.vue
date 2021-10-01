@@ -55,34 +55,18 @@
       content-class="bg-grey-2"
     >
       <q-list>
-        <q-item-label header>Essential Links</q-item-label>
-        <q-item clickable @click.native="openURL('https://github.com/h256/gekko-quasar-ui')">
+        <q-item-label header>Quick Help</q-item-label>
+        <q-item clickable @click.native="openURL('https://teckgeekz.com')">
           <q-item-section side>
             <q-icon name="fab fa-github-square"></q-icon>
           </q-item-section>
+          
           <q-item-section>
-            <q-item-label>Gekko-Quasar-UI on GitHub</q-item-label>
-            <q-item-label caption>github.com/h256/gekko-quasar-ui</q-item-label>
-          </q-item-section>
-        </q-item>
-        <q-item clickable @click.native="openURL('https://github.com/askmike/gekko')">
-          <q-item-section side>
-            <q-icon name="fab fa-github-square"></q-icon>
-          </q-item-section>
-          <q-item-section>
-            <q-item-label>Gekko on GitHub</q-item-label>
+            <q-item-label>Original Fork</q-item-label>
             <q-item-label caption>github.com/askmike/gekko</q-item-label>
           </q-item-section>
         </q-item>
-        <q-item clickable @click.native="openURL('https://discord.gg/26wMygt')">
-          <q-item-section side>
-            <q-icon name="chat"></q-icon>
-          </q-item-section>
-          <q-item-section>
-            <q-item-label>Gekko Discord Channel</q-item-label>
-            <q-item-label caption>https://discord.gg/26wMygt</q-item-label>
-          </q-item-section>
-        </q-item>
+        
         <q-item clickable @click.native="openURL('https://forum.gekko.wizb.it/')">
           <q-item-section side>
             <q-icon name="record_voice_over"></q-icon>
@@ -144,13 +128,13 @@
     <q-footer reveal>
       <q-toolbar class="bg-blue-grey-7">
         <div>
-          <div class="text-h6">Gordon UI v {{version.ui}}</div>
-          <div class="text-subtitle">Running on Quasar v{{ $q.version }}</div>
+          <div class="text-h6">Custom Bot v {{version.ui}}</div>
+          <div class="text-subtitle">Running on UI v{{ $q.version }}</div>
         </div>
         <q-space></q-space>
         <div>
-          <div class="text-h6"><em>Use Gekko and Gordon UI at your own risk!</em></div>
-          <div class="text-subtitle" v-if="version.gekko">Using Gekko v {{version.gekko}}</div>
+          <div class="text-h6"><em>Use BOT at your own risk!</em></div>
+          <div class="text-subtitle" v-if="version.gekko">Using BOT v {{version.gekko}}</div>
         </div>
         <q-space></q-space>
         <q-toolbar-title>
