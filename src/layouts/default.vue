@@ -11,7 +11,7 @@
           <q-icon name="menu"/>
         </q-btn>
         <q-toolbar-title>
-          Gordon UI
+          Custom Bot UI
         </q-toolbar-title>
         <q-space></q-space>
         <q-tabs shrink stretch>
