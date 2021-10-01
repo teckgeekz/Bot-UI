@@ -7,14 +7,13 @@
           <div class="text-h2 col">Gordon UI edition</div>
         </div>
         <p>
-          Gekko is a Bitcoin/Altcoin trading bot and backtesting platform <br>
+          BOT UI is a Bitcoin/Altcoin trading bot and backtesting platform <br>
           that connects to popular Bitcoin exchanges. <br>
-          It is written in JavaScript and runs on NodeJS.
+          It is Custom built on Open Source as Base.
         </p>
-        <a href="https://gekko.wizb.it/">Find out more</a>
+        
 
-        <p><em>Gekko is 100% open source and free. <br>
-          If you paid for this you have been scammed!</em></p>
+       
       </div>
       <div class="col-4 q-pa-sm">
         <img src="~assets/220px-Gordon_Gekko_DAP_HALF_Pencil.png" alt="gekko-logo">
