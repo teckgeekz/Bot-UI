@@ -1,10 +1,10 @@
 {
   "name": "gordonui",
   "version": "0.6.9",
-  "description": "Quasar Frontend for Gekko Trading Bot",
-  "productName": "Gordon UI",
+  "description": "Custom enhanced BOT with Gekko",
+  "productName": "Custom BOT UI",
   "cordovaId": "org.cordova.quasar.app",
-  "author": "H256 <hansi256@web.de>",
+  "author": "EthersNews",
   "scripts": {
     "test": "echo \"No test specified\" && exit 0"
   },
