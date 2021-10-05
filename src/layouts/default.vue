@@ -16,7 +16,7 @@
         <q-space></q-space>
         <q-tabs shrink stretch>
           <q-route-tab icon="home" default label="Home" to="/" exact></q-route-tab>
-          <q-route-tab icon="cast_connected" label="Live Gekkos" to="/live-gekkos" exact>
+          <q-route-tab icon="cast_connected" label="Live Bots" to="/live-gekkos" exact>
             <q-badge color="green" floating v-if="stratrunners.length">{{stratrunners.length}}</q-badge>
           </q-route-tab>
           <q-route-tab icon="timeline" label="Backtest" to="/backtest" exact></q-route-tab>
