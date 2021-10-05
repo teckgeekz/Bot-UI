@@ -2,7 +2,7 @@
   <q-page padding>
     <div v-if="!data">
       <div class="text-h4 text-negative">ERROR: Unknown Gekko instance</div>
-      <p>Gekko doesn't know what watcher this is!</p>
+      <p>BOT doesn't know what watcher this is!</p>
     </div>
     <template v-if="data">
       <q-banner
@@ -13,7 +13,7 @@
         <template v-slot:avatar>
           <q-icon name="info" color="white"/>
         </template>
-        This is an archived Gekko. It's currently not running anymore.
+        This is an archived BOT. It's currently not running anymore.
       </q-banner>
       <q-banner
         v-if="data.errorMessage"
@@ -22,7 +22,7 @@
         <template v-slot:avatar>
           <q-icon name="error" color="white"/>
         </template>
-        <p>This Gekko crashed with the following error-message: <br> <br>{{ data.errorMessage }}</p>
+        <p>This BOT crashed with the following error-message: <br> <br>{{ data.errorMessage }}</p>
       </q-banner>
       <!-- Main info -->
       <div
@@ -146,7 +146,7 @@
             <div class="col">
               <p>
                 <em v-if="isArchived && !report">
-                  This Gekko never executed a trade.
+                  This BOT never executed a trade.
                 </em>
                 <em v-if="!isArchived && !report">
                   Waiting for at least one trade.
@@ -235,7 +235,7 @@
       </q-tab-panels>
 
       <q-banner v-if="isStratrunner && !watcher && !isArchived" class="q-pa-md bg-warning" icon="warning">
-        <p>WARNING: stale Gekko, not attached to a watcher, please report an
+        <p>WARNING: stale BOT, not attached to a watcher, please report an
           <a href="https://github.com/askmike/gekko/issues">issue</a> here.</p>
       </q-banner>
 
